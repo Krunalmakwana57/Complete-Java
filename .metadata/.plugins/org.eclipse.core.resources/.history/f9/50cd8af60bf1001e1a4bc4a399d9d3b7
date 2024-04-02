@@ -1,0 +1,57 @@
+package basics;
+
+public class DataTypes {
+	public static void main(String[] args) {
+		
+		/**
+		 * @author Krunal Makwana
+		 * Two types of Data types
+		1.primitive  		2.non-primitive
+			byte				String
+			short				Class
+			int					Object
+			long				Array
+			float
+			double
+			char
+			boolean
+		*/
+		//byte,short,int,long -> to store Integer or complete number depending upon length of num
+		//default 0;
+		byte num = 10;
+		//here num, num2.... are variable which can be named anything except reserved keyword
+		//and it should start with any alphabet or underscore(_) only this is valid otherwise error
+		short num2 = 260;
+		int num3 = 12345;
+		long num4 = 12345678910l;
+		
+		System.out.println("byte : "+num+"\nshort : "+num2+"\nint : "+num3+"\nlong : "+num4);
+		System.out.println("-----------------------------------------");
+		
+		//float and double is used to store decimal values
+		//default 0.0
+		float num5 = 12.5f;
+		double num6 = 342.45;
+		
+		System.out.println("float : "+num5+"\ndouble : "+num6);
+		System.out.println("-----------------------------------------");
+		
+		//chat is used to store single character -> we can't have more than one character in char
+		//default '\u0000';
+		char ch = '@';
+		char ch2 = 'a';
+		char ch3 = 'A';
+		
+		System.out.println("special char : "+ch+"\nsmall alphabet : "+ch2+"\ncapital alphabet : "+ch3);
+		System.out.println("-----------------------------------------");
+		
+		//boolean is used to store true or false value
+		//default false;
+		boolean b1 = true;
+		boolean b2 = false;
+		System.out.println("boolean value 1 : "+b1+"\nboolean value 2 : "+b2);
+		
+		//we will discuss all non-primitive data types in separate classes 
+		
+	}
+}
