@@ -1,0 +1,14 @@
+package string;
+
+public class StringExample {
+	
+	//a String is sequence of characters
+	//there are 4 ways to create an array ->
+//	1.array of chars 
+//	2.String class
+//	3.StringBuffer class
+//	4.StringBuilder class
+	
+	//using String class
+	String str = "Hello Java";
+}
