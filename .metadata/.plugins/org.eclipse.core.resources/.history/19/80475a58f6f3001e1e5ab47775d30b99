@@ -1,7 +1,0 @@
-package string;
-
-public class StringClassExample {
-	public static void main(String[] args) {
-		
-	}
-}

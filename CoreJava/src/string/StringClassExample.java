@@ -44,7 +44,7 @@ public class StringClassExample {
 		// same as above but start from 5 and end at 8 cause 9 is limit
 		System.out.println(str1.substring(5, 9));
 
-		//return true if string contains given string or not
+		//return true if string contains given string
 		System.out.println(str1.contains("Java"));
 	}
 }

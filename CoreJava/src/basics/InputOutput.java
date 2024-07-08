@@ -16,8 +16,8 @@ public class InputOutput {
 		 */
 		
 		//BufferedReader Example
-		//BufferedReader takes input as String so if you want to change value in int or double you can use 
-		//parse(String obj)method of different wrapper classes
+		//BufferedReader takes input as String so if you want to change value in integer or double you can use 
+		//parse(String object)method of different wrapper classes
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		
 		System.out.print("Enter a String : ");

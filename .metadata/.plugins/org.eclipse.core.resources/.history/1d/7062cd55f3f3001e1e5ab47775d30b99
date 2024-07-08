@@ -1,7 +1,0 @@
-package string;
-
-public class StringExample {
-	
-	//a String is sequence of characters
-	String str = "Hello Java";
-}
